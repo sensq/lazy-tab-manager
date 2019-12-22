@@ -1,6 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Lazy Tab Manager",
+    "short_name": "ltm",
     "version": "1.0.0",
     "description": "雑にタブを管理します",
     "browser_action": {
