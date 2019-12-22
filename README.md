@@ -6,12 +6,12 @@
 
 ## ScreenShot
 
-ポップアップ画面  
-<img src="./images/popup1.png">  
-<img src="./images/popup2.png">
+* ポップアップ画面
+  <img src="./images/popup1.png" style="border:solid;border-width:1">  
+  <img src="./images/popup2.png" style="border:solid;border-width:1"> 
 
-Option画面
-<img src="./images/options.png">
+* Option画面
+  <img src="./images/options.png" style="border:solid;border-width:1"> 
 
 ## Detail
 
