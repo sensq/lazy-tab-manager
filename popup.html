@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="style.css">
+    <script src="common.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        Load: <select id="select-key"></select>
+        <button id="delete-button">Delete</button>
+        <div id="result_delete"></div>
+        <hr>
+
+        <div id="save-button" class="fab" tooltip="Save_Now_History"><i>+</i></div>
+        <br>
+        <div id="result_save"></div>
+        <form id="view_type">
+            <label><input type="radio" name="types" value=0 checked>Default</label>
+            <label><input type="radio" name="types" value=1>Markdown</label>
+            <label><input type="radio" name="types" value=2>JSON</label>
+        </form>
+        <h1 id="subject"></h1>
+    </div>
+
+    <div id="contents"></div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

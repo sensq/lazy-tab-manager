@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="options-style.css">
+    <script src="common.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <h1>
+            <font size=7>Lazy Tab Manager -Options-</font>
+        </h1>
+        <br>
+        <h1>
+            <font size=6>Configuration</font>
+        </h1>
+        <hr>
+        <table>
+            <tr>
+                <td>
+                    Window Width:
+                </td>
+                <td>
+                    <input id="window_width" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Max Histories:
+                </td>
+                <td>
+                    <input id="max_histories" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Default View:
+                </td>
+                <td>
+                    <form id="view_type">
+                        <label><input type="radio" name="types" value=0 checked>Default</label>
+                        <label><input type="radio" name="types" value=1>Markdown</label>
+                        <label><input type="radio" name="types" value=2>JSON</label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+        </table>
+
+        <br>
+        <input id="save" type="button" value="Save">
+        <div id="result_save"></div>
+        <br>
+        <h1>
+            <font size=6>Delete Histories</font>
+        </h1>
+        <hr>
+        <br>
+        <div id="history_list"></div>
+        <br>
+        <input id="delete" type="button" value="DELETE Selected Histories">
+        <input id="check_all" type="button" value="Check All">
+        <input id="uncheck_all" type="button" value="Uncheck All">
+        <div id="result_delete"></div>
+        <br>
+
+        <h1 id="subject"></h1>
+        <div id="view"></div>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+</html>

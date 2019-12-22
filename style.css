@@ -1,0 +1,44 @@
+.fab {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 5px 11px -2px rgba(0, 0, 0, 0.18), 0px 4px 12px -7px rgba(0, 0, 0, 0.15);
+    background: #699;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .fab > i {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  
+  .fab:active,
+  .fab:focus,
+  .fab:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+  }
+  
+  [tooltip]:before {
+    font-family: 'Meiryo';
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #666;
+    color: #fff;
+    content: attr(tooltip);
+    font-size: 12px;
+    visibility: hidden;
+    padding: 5px 7px;
+    margin-right: 10px;
+    position: absolute;
+    left: 105%;
+    bottom: 50%;
+  }
+  
+  [tooltip]:hover:before,
+  [tooltip]:hover:after {
+    visibility: visible;
+  }
