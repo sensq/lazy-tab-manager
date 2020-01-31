@@ -15,4 +15,4 @@
 
 ## Detail
 
-https://qiita.com/S_SenSq/items/758bbde01e801e2d1624
+coming soon
